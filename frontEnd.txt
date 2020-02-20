@@ -1,0 +1,131 @@
+*********************************************************************************************************************
+Day 1:
+
+bootstrap is css frame work which is having css classes and these feautres we can use it in our code.
+ 
+Doctype tell's the browser about the standard or version of current html language.
+
+html is used for creating a STATIC WEB PAGES.
+
+1:  h1 h2 h3 h4 h5 h6 tags
+2:ol order list with li tag
+3: ul unorder list with li tag
+
+two kinds of element in html:
+block element
+inline element 
+
+CSS: CasCading style sheet 
+it is case senstive language
+three ways of CSS:
+ 1: Inline CSS inside the tags using style tag: style="property:value;"
+2: Internal CSS
+3: External CSS
+
+*********************************************************************************************************************
+
+Day 2:
+Java Script: SCRIPTING LANGUAGE
+It is used to indicate the behaviour of web pages.
+elements in java script: 
+1: Action
+2: Method.
+
+ways to include javascriupt in html code.
+internally
+externally
+
+var: to declare a variable:
+it can take any kind of data since it is not defining the data type.
+javascript is dynamic type language.
+
+*********************************************************************************************************************
+Day 3:
+To create a object in java script:
+var a=new Object();
+var a={}
+
+till es2050 contructor function is defined by Start with capital letter.
+
+bootstrap is collection of multiple CSS classes.
+
+there are 12 column included in the bootstrap grid system.
+
+*********************************************************************************************************************
+
+Day 4:
+
+typescript is a super set of javascript.
+
+To export-import in typescript:
+export 
+import from "./filename"
+
+command to install typescript by cmd:
+npm install -g typescript
+
+command to install angular by cmd:
+npm install -g @angular/cli
+
+command to uninstall angular by cmd:
+ng analytics off
+
+To create a project inside the path where we have installed the angular.
+ng new project-name 
+
+after we created the project goto inside the project and write the command
+ng serve
+
+*********************************************************************************************************************
+
+Day5:
+
+Angular building blocks:
+
+1. Modules
+2. Components
+3. Directives
+4. Services
+5. Routers
+
+To change the port no in Anugular:
+ng serve --port portno
+
+To create a new Component:
+ng g component product
+
+Property binding: 
+
+1: interpolation {{}} to get the value from class to view: 
+2: using wrapping with [] to get the value from class to view:
+3: using bind-src to get the value from classs to view:
+
+two way binding
+
+Event binding: from view to ts or component.
+
+to take input from parent or app to child or product:
+ @Input() receivedFromParent:string; 
+
+
+Structured directories: ngFor,ngIf,ngSwitch to manipulate the structure.
+
+*********************************************************************************************************************
+
+Day5:
+
+Custom Directory:
+
+TO create a custom directory using CLI:
+
+ng g directive customhover
+ng g directive mydirective
+
+Create pipe and custom pipe to tranbsform the values:
+
+ng g pipe pipename
+
+Service and custom Service
+
+ng g service servicename
+
